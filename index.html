@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--cdnjs link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="./assets2/logo.png">
+
+    <title>Rescue🐾Reach</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--CDN (Content Delivery Network) link from the bootstrap website for CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+
+    <!--google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!--email icon-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
+</head>
+
+<body>
+    <div class="main">
+
+        <header class="site-header">
+            <div class="top-bar">
+                <div class="top-left">
+                    <a class="phone" href="#"><i class="fa-solid fa-phone-flip"></i> Tel:+91 0000
+                        000 000</a>
+                    <span class="sep">|</span>
+                    <a class="email" href="#"><i class="material-symbols-outlined" id="em">mail</i>
+                        rescuereach@gmail.com</a>
+                </div>
+
+                <div class="top-right">
+                    <div class="social-icons">
+                        <a class="circle-button" id="si" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="circle-button" id="si" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="circle-button" id="si" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="circle-button" id="si" href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- logo + main nav buttons row -->
+            <div class="brand-nav">
+                <div class="logo-wrap">
+                    <h1 id="logo-title">Rescue<span class="paw">🐾</span>Reach</h1>
+                </div>
+
+                <nav class="main-nav">
+
+                    <a class="home-btn" href="#home" role="button">Home</a>
+
+                    <a class="home-btn" href="#about" role="button">About Us</a>
+
+                    <div class="btn-group nav-dropdown">
+                        <button class="btn dropdown-toggle" data-bs-toggle="dropdown" role="button">Services</button>
+                        <ul class="dropdown-menu" id="drp-mnu">
+                            <li><a class="dropdown-item" id="drp-itm" href="#">Veterinary Care</a>
+                            </li>
+                            <li><a class="dropdown-item" id="drp-itm" href="#">Animal Rescue</a></li>
+                            <li><a class="dropdown-item" id="drp-itm" href="#">Treatement & Rehabilitation</a>
+                            </li>
+                            <li><a class="dropdown-item" id="drp-itm" href="#">Adoptions & Release</a>
+                            </li>
+                            <li><a class="dropdown-item" id="drp-itm" href="#">Humane Education and
+                                    Awareness</a></li>
+                            <li><a class="dropdown-item" id="drp-itm" href="#">Rabies Helpline</a></li>
+                        </ul>
+                    </div>
+
+                    <a class="home-btn" href="#blog" role="button">Blog</a>
+
+                    <a class="home-btn" href="#contact" role="button">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="page" id="home">
+            <div class="home-bg">
+                <div class="home-tagline">This is your chance to save a life</div>
+                <div class="home-title">Together, We Reach. <br> Together, We Rescue.</div>
+                <p class="home-text">
+                    Every day, countless animals are in need of rescue, nourishment, medical aid,
+                    shelter, and rehabilitation.
+                </p>
+
+                <p class="home-text">Lets find your favorite pet to adopt...</p>
+                <a class="btn btn-warning" id="home-btn" href="#adoption" role="button">Adopt Now</a>
+            </div>
+        </section>
+
+        <section class="page" id="about">
+            <div class="about-tagline">Who We Are</div>
+            <div class="about-title">Compassion in Action</div>
+            <div class="about-center">
+                <div class="about-bg"></div>
+                <div class="about-des">
+                    <div class="about-des-content">
+                        <h2>GIVING VOICELESS ANIMALS A SECOND CHANCE AT LIFE</h2>
+                        <p>Animal Matter To Me (AMTM) is a non-profit organization dedicated to the rescue, care, and
+                            rehabilitation of injured, stray, and abandoned animals across India. Since our inception,
+                            we
+                            have been at the forefront of providing medical assistance, shelter, and lifelong support to
+                            animals who have no other means of survival. From neutering to vaccination drives and
+                            emergency
+                            rescue operations, our team is committed to ensuring the welfare and dignity of animals that
+                            have no voice of their own. Every animal we save is a life that matters to us.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-foot">
+                <p id="ab-ft">Our work speaks through the lives we've touched</p>
+
+                <div class="ab-left">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span id="ab-ft-check">Over 12+ years of experience</span>
+
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span id="ab-ft-check">Animal Rescue Helpline</span>
+
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span id="ab-ft-check">Ambulance Service</span>
+                </div>
+
+                <div class="ab-right">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span id="ab-ft-check">Tactical Animal Rescuce</span>
+
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span id="ab-ft-check">Trauma Care Facility</span>
+
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span id="ab-ft-check">Rabies Helpline</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="page" id="adoption">
+
+            <div class="adopt-tagline">Available Pets</div>
+            <div class="adopt-title">Adopt. Love. Repeat</div>
+
+            <div class="adopt-bg">
+
+                <!-- Hidden radio buttons -->
+                <input type="radio" name="pet-filter" id="show-all" checked>
+                <input type="radio" name="pet-filter" id="show-dogs">
+                <input type="radio" name="pet-filter" id="show-cats">
+                <input type="radio" name="pet-filter" id="show-others">
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <label for="show-all" class="btn">All</label>
+                    <label for="show-dogs" class="btn">Dogs</label>
+                    <label for="show-cats" class="btn">Cats</label>
+                    <label for="show-others" class="btn">Others</label>
+                </div>
+
+                <!-- <div class="anim-btn-group">
+                    <a href="#" class="animal-btn" role="button">Dogs</a>
+                    <a href="#" class="animal-btn" role="button">Cats</a>
+                    <a href="#" class="animal-btn" role="button">Others</a>
+                </div> -->
+
+                <div class="pet-list">
+
+                    <div class="pet-detail-box dog">
+                        <img src=".\assets2\dog1.jpg"
+                            class="dog-image">
+                        <h3>Ginger</h3>
+                        <p>Ginger is a 5 year old Male who is High energy, Playful and Friendly. He is also Vaccinated &
+                            Neutered</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">5 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box dog">
+                        <img src=".\assets2\dog2.jpg"
+                            class="dog-image">
+                        <h3>Coco</h3>
+                        <p>A cheerful tail wagger who greets everyone with love and excitement, Ready to be your best
+                            friend for life!</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">2 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box dog">
+                        <img src=".\assets2\dog3.jpg"
+                            class="dog-image">
+                        <h3>Barfi</h3>
+                        <p>Playful, brave, and bursting with energy! He’s looking for a home that matches his
+                            adventurous spirit</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">3 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box dog">
+                        <img src=".\assets2\dog4.jpg"
+                            class="dog-image">
+                        <h3>Zoe</h3>
+                        <p>Zoe is a tiny ball of sunshine who loves to be touched and cuddled with all the hair that
+                            sticks to you</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">8 months</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+                </div>
+
+                <div class="pet-list">
+
+                    <div class="pet-detail-box cat">
+                        <img src=".\assets2\cat1.jpg"
+                            class="dog-image">
+                        <h3>Kiwi</h3>
+                        <p>Ginger is a 5 year old Male who is High energy, Playful and Friendly. He is also
+                            Vaccinated &
+                            Neutered</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">5 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box cat">
+                        <img src=".\assets2\cat2.jpg"
+                            class="dog-image">
+                        <h3>Luna</h3>
+                        <p>A cheerful tail wagger who greets everyone with love and excitement, Ready to be your
+                            best
+                            friend for life!</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">2 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box cat">
+                        <img src=".\assets2\cat3.jpg"
+                            class="dog-image">
+                        <h3>Shadow</h3>
+                        <p>Playful, brave, and bursting with energy! He’s looking for a home that matches his
+                            adventurous spirit</p>
+ 
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">3 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box cat">
+                        <img src=".\assets2\cat4.jpg"
+                            class="dog-image">
+                        <h3>Bella</h3>
+                        <p>Zoe is a tiny ball of sunshine who loves to be touched and cuddled with all the hair that
+                            sticks to you</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">8 months</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+                </div>
+
+                <div class="pet-list">
+
+                    <div class="pet-detail-box others">
+                        <img src=".\assets2\other1.jpg"
+                            class="dog-image">
+                        <h3>Thunder</h3>
+                        <p>Ginger is a 5 year old Male who is High energy, Playful and Friendly. He is also
+                            Vaccinated &
+                            Neutered</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">5 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box others">
+                        <img src=".\assets2\other2.jpg"
+                            class="dog-image">
+                        <h3>Gillu</h3>
+                        <p>A cheerful tail wagger who greets everyone with love and excitement, Ready to be your
+                            best
+                            friend for life!</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">2 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box others">
+                        <img src=".\assets2\other3.jpg"
+                            class="dog-image">
+                        <h3>Nandu</h3>
+                        <p>Playful, brave, and bursting with energy! He’s looking for a home that matches his
+                            adventurous spirit</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">3 years</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                    <div class="pet-detail-box others">
+                        <img src=".\assets2\other4.jpg"
+                            class="dog-image">
+                        <h3>Peanut</h3>
+                        <p>Zoe is a tiny ball of sunshine who loves to be touched and cuddled with all the hair
+                            that
+                            sticks to you</p>
+
+                        <div>
+                            <a id="location-icon" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                            <span id="loc-text">Patna</span>
+
+                            <i class="fa-regular fa-calendar" id="calender-icon"></i>
+                            <span id="cal-text">8 months</span>
+                        </div>
+
+                        <a href="#" class="adopt-btn" role="button">Adopt now</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="page" id="blog">
+            <div class="blog-tagline">Our Blogs</div>
+            <div class="blog-title">Real Life Stories of Impact</div>
+            <div class="blog-bg">
+
+                <!-- experience section -->
+                <div class="experience-section">
+
+                    <div class="exp-container">
+
+                        <!-- LEFT SIDE (Scrollable Box) -->
+                        <div class="exp-left">
+
+                            <div class="exp-box scroll-box">
+
+                                <p>
+                                    doing a fabulous work by guiding each visitor for the best experience of
+                                    love and compassion towards animals, Mr. Stephen and Ms. Deepika was
+                                    really kind and addressing,
+                                    <br><br>
+                                    <strong>Bhuvan M</strong> <br>
+                                    Local Guide
+                                </p>
+                            </div>
+
+                            <div class="exp-box tag-box">
+                                “truly passionate”
+                            </div>
+
+
+
+                        </div>
+
+                        <!-- RIGHT SIDE (Image) -->
+                        <div class="exp-right">
+                            <img src="your-image.jpg" alt="Testimonial Image">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- BLOG CARD 1 -->
+                <div class="blog-card">
+
+                    <img src="dog.jpg" class="blog-img" alt="Dog Rescue">
+
+                    <div class="blog-content">
+                        <h2>Bruno – A Brave Rescue Story</h2>
+
+                        <!-- Checkbox for toggle -->
+                        <input type="checkbox" id="blog1" class="toggle-box">
+
+                        <p class="short-text">
+                            Bruno was found injured near the highway and was rescued by our team...
+                        </p>
+
+                        <div class="full-text">
+                            <p>
+                                Bruno was found with a broken leg near the highway.
+                                Our team immediately brought him to the shelter, gave
+                                him medical care, and lots of love. Today, he is
+                                healthy, playful, and ready for adoption.
+                                He loves to cuddle, enjoys long walks, and trusts humans again.
+                            </p>
+                        </div>
+
+                        <label for="blog1" class="toggle-btn"></label>
+                    </div>
+                </div>
+
+                <!-- BLOG CARD 2 -->
+                <div class="blog-card">
+
+                    <img src="cat.jpg" class="blog-img" alt="Cat Rescue">
+
+                    <div class="blog-content">
+                        <h2>Misty – The Sweetest Kitty</h2>
+
+                        <input type="checkbox" id="blog2" class="toggle-box">
+
+                        <p class="short-text">
+                            Misty was abandoned but she never stopped trusting people...
+                        </p>
+
+                        <div class="full-text">
+                            <p>
+                                Misty was found near a market area. She was weak and hungry.
+                                After joining our shelter, she recovered quickly and became
+                                the most affectionate cat we’ve ever met.
+                                She is gentle, friendly, and loves warm blankets.
+                            </p>
+                        </div>
+
+                        <label for="blog2" class="toggle-btn"></label>
+                    </div>
+                </div>
+
+                <!-- BLOG CARD 3 -->
+                <div class="blog-card">
+
+                    <img src="cat.jpg" class="blog-img" alt="Cat Rescue">
+
+                    <div class="blog-content">
+                        <h2>Misty – The Sweetest Kitty</h2>
+
+                        <input type="checkbox" id="blog3" class="toggle-box">
+
+                        <p class="short-text">
+                            Misty was abandoned but she never stopped trusting people...
+                        </p>
+
+                        <div class="full-text">
+                            <p>
+                                Misty was found near a market area. She was weak and hungry.
+                                After joining our shelter, she recovered quickly and became
+                                the most affectionate cat we’ve ever met.
+                                She is gentle, friendly, and loves warm blankets.
+                            </p>
+                        </div>
+
+                        <label for="blog3" class="toggle-btn"></label>
+                    </div>
+                </div>
+
+                <!-- BLOG CARD 4 -->
+                <div class="blog-card">
+
+                    <img src="cat.jpg" class="blog-img" alt="Cat Rescue">
+
+                    <div class="blog-content">
+                        <h2>Misty – The Sweetest Kitty</h2>
+
+                        <input type="checkbox" id="blog4" class="toggle-box">
+
+                        <p class="short-text">
+                            Misty was abandoned but she never stopped trusting people...
+                        </p>
+
+                        <div class="full-text">
+                            <p>
+                                Misty was found near a market area. She was weak and hungry.
+                                After joining our shelter, she recovered quickly and became
+                                the most affectionate cat we’ve ever met.
+                                She is gentle, friendly, and loves warm blankets.
+                            </p>
+                        </div>
+
+                        <label for="blog4" class="toggle-btn"></label>
+                    </div>
+                </div>
+
+                <!-- BLOG CARD 5-->
+                <div class="blog-card">
+
+                    <img src="cat.jpg" class="blog-img" alt="Cat Rescue">
+
+                    <div class="blog-content">
+                        <h2>Misty – The Sweetest Kitty</h2>
+
+                        <input type="checkbox" id="blog5" class="toggle-box">
+
+                        <p class="short-text">
+                            Misty was abandoned but she never stopped trusting people...
+                        </p>
+
+                        <div class="full-text">
+                            <p>
+                                Misty was found near a market area. She was weak and hungry.
+                                After joining our shelter, she recovered quickly and became
+                                the most affectionate cat we’ve ever met.
+                                She is gentle, friendly, and loves warm blankets.
+                            </p>
+                        </div>
+
+                        <label for="blog5" class="toggle-btn"></label>
+                    </div>
+                </div>
+
+                <!-- BLOG CARD 6 -->
+                <div class="blog-card">
+
+                    <img src="cat.jpg" class="blog-img" alt="Cat Rescue">
+
+                    <div class="blog-content">
+                        <h2>Misty – The Sweetest Kitty</h2>
+
+                        <input type="checkbox" id="blog6" class="toggle-box">
+
+                        <p class="short-text">
+                            Misty was abandoned but she never stopped trusting people...
+                        </p>
+
+                        <div class="full-text">
+                            <p>
+                                Misty was found near a market area. She was weak and hungry.
+                                After joining our shelter, she recovered quickly and became
+                                the most affectionate cat we’ve ever met.
+                                She is gentle, friendly, and loves warm blankets.
+                            </p>
+                        </div>
+
+                        <label for="blog6" class="toggle-btn"></label>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="page" id="contact">
+            <section class="contact-header">
+                <h1>Contact Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </section>
+
+
+            <!-- ===== FORM + NEWSLETTER SECTION ===== -->
+            <section class="form-area">
+
+                <!-- Left Form Section -->
+                <div class="contact-form">
+
+                    <form action="https://formspree.io/f/mnnvdlye" method="POST">
+                        <div class="input-row">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Phone">
+                        </div>
+
+                        <input type="text" placeholder="Name" class="full">
+                        <textarea placeholder="Message"></textarea>
+
+                        <button class="submit-btn">Submit Button</button>
+                    </form>
+
+                </div>
+
+                <!-- Newsletter Card -->
+                <div class="newsletter-card">
+                    <h2>Our Newsletters</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                    <input type="email" placeholder="Email">
+
+                    <button class="newsletter-btn">Submit Button</button>
+                </div>
+
+            </section>
+
+
+
+            <!-- ===== CONTACT INFO BOXES ===== -->
+            <section class="contact-boxes">
+
+                <div class="info-box">
+                    <h3>(+876) 765 665</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>mail@influenca.id</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>London Eye, London</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
+
+            </section>
+
+
+            <!-- ===== GOOGLE MAP SECTION ===== -->
+            <section class="map-section">
+                <iframe src="https://maps.google.com/maps?q=London%20Eye&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+
+
+
+            <!-- ===== FOOTER ===== -->
+            <footer>
+                <div class="footer-grid">
+
+                    <div class="footer-col">
+                        <h2>Influenca</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>London Eye, London UK</p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li>Home</li>
+                            <li>Pages</li>
+                            <li>About Us</li>
+                            <li>Services</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>FAQs</li>
+                            <li>Booking</li>
+                            <li>Pages</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>Home</li>
+                            <li>Contact</li>
+                            <li>Blog</li>
+                            <li>404</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <p class="copyright">© 2025 Influenca Template – All Rights Reserved</p>
+            </footer>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
